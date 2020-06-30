@@ -1,0 +1,42 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    box-sizing: border-box;
+
+    background-color: #fff;
+    color: #000;
+    
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+    font-family: 'Nunito Sans', sans;
+}
+img.icon {
+    border-radius: 50%;
+}
+
+.profile {
+    text-align: center;
+    padding: 1em 0;
+}
+img.profile-icon {
+    width: 64px;
+    vertical-align: middle;
+}
+.profile-title {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-left: 0.6em;
+    text-transform: uppercase;
+    white-space:  nowrap;
+
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
